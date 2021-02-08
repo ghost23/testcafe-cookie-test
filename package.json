@@ -1,0 +1,29 @@
+{
+  "name": "testcafe-cookie-test",
+  "version": "1.0.0",
+  "description": "Test, whether you can delete cookies within testcafe tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome test/cookie.test.js",
+    "serve": "http-serve ./website"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghost23/testcafe-cookie-test.git"
+  },
+  "keywords": [
+    "testcafe",
+    "tests",
+    "cookies"
+  ],
+  "author": "Sven Busse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ghost23/testcafe-cookie-test/issues"
+  },
+  "homepage": "https://github.com/ghost23/testcafe-cookie-test#readme",
+  "dependencies": {
+    "http-serve": "^1.0.1",
+    "testcafe": "^1.10.1"
+  }
+}

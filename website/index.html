@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DemoCookie</title>
+</head>
+<body>
+    <button id="login">Login</button><button id="logout">Logout</button>
+    <script>
+        document.getElementById('login').addEventListener('click', function() {
+            document.cookie = "MY_COOKIE=Hello; path=/; max-age=2592000";
+        });
+
+        document.getElementById('logout').addEventListener('click', function() {
+            document.cookie = "MY_COOKIE=; path=/; max-age=0";
+        });
+    </script>
+</body>
+</html>
